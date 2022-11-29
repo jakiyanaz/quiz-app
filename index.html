@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="fnonload()">
+    <div class="indexcontainer">
+        <div class="welcomepage">
+            <div id="logo">
+                <img src="images/logo1.jpg" alt="image failed">
+            </div>
+            <div id="hello">
+                <h2 style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Welcome To Quiz!</h2>
+                <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Enter your name to continue the quiz</p>
+            </div>
+            <div class="namebox">
+                <input type="text" name="entername" id="txtname">
+                <input id="btnenter" type="button" value="Enter" onclick="fnbtnenter()">
+                <p id="errname" style="font-weight: bold; color: red;"></p>
+            </div>
+            <div class="phr">
+                <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">You will have 15 seconds to answer each question</p>
+                <hr>
+            </div>
+            <div class="category">
+                <h2 style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Select category</h2>
+                <div class="btns1">
+                    <input id="category1" type="button" value="Pipes And Cisterns" onclick="location.href='pipecisterns.html';">
+                    <input id="category2" type="button" value="Probability" onclick="location.href='Probability.html';">
+                    <input id="category3" type="button" value="Problem On Age" onclick="location.href='agesproblem.html';">
+                    <input id="category4" type="button" value="Profit And Loss" onclick="location.href='profitloss.html';">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

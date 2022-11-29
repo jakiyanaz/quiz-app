@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipes And Cisterns</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="fnonload()">
+    <div class="container">
+        <div class="parentbox">
+            <h3 style="font-weight: bold; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: purple;">Problems On Ages</h3>
+
+            <div class="timerscore">
+                <div class="timer">
+                    <p id="ptimer" style="text-align: center;">15</p>
+                </div>
+                <div class="score">
+                    <p>SCORE: 1</p>
+                </div>
+            </div>
+
+            <div class="qnum">
+                <p id="pqnum" style="text-align: center;">
+                    <span id="thisqnum"></span>
+                    <span id="outofnum">/10</span>
+                </p>
+            </div>
+
+            <div id="divqon">
+            <div class="questions">
+                <p id="ques" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"></p>
+            </div>
+            <div class="options">
+                <div id="optpart1" class="optpart">
+                    <input class="optionbtns" id="option1" type="button" value="" onclick="fnoption(this)">
+                    <input class="optionbtns" id="option2" type="button" value="" onclick="fnoption(this)">
+                </div>
+                <div id="optpart2" class="optpart">
+                    <input class="optionbtns" id="option3" type="button" value="" onclick="fnoption(this)">
+                    <input class="optionbtns" id="option4" type="button" value="" onclick="fnoption(this)">
+                </div>
+            </div>
+            <div class="next">
+                <input id="btnnext" type="button" value="Next" onclick="fnnext()">
+                <input id="btnresult" type="button" value="See Result" onclick="fnresult()">
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="agesproblem.js"></script>
+</body>
+</html>

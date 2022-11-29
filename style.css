@@ -1,0 +1,189 @@
+/* index.html page styling */
+div.indexcontainer{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+div#logo{
+    height: 100px;
+    width: 100px;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+}
+div#logo img{
+    width: 100%;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+div.welcomepage{
+    width: 40%;
+    border: 2px solid green;
+    box-shadow: 4px 5px 4px palegreen;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: ivory;
+}
+body input[type="button"]{
+    background-color:palegreen;
+    border: 1px solid purple;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+body input[type="button"]:hover{
+    box-shadow: 3px 3px 4px green;
+}
+div.namebox input[type="text"]{
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+/* pipecisterns page styling */
+div.container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.parentbox{
+    width: 40%;
+    border: 2px solid green;
+    padding: 20px 20px 50px 20px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px palegreen;
+    background-color: ivory;
+}
+div.score{
+    background-color: cornsilk;
+    /* color: white; */
+    border: 1px solid purple;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+div.timer{
+    width: 50px;
+    height: 50px;
+    border: 1px solid purple;
+    background-color: cornsilk;
+    border-radius: 50%;
+}
+div.timerscore{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.qnum{
+    width: 50px;
+    height: 50px;
+    border: 1px solid purple;
+    background-color: cornsilk;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 45%;
+}
+div#divqon{
+    border: 1px solid purple;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+div.questions{
+    /* border: 2px solid green; */
+    width: 100%;
+    margin: auto;
+}
+div.next{
+    /* border: 2px solid green; */
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.next input{
+    width: 40%;
+}
+div.options{
+    /* border: 2px solid green; */
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    /* padding: 10px; */
+}
+div.options .optpart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    /* border: 2px solid red; */
+}
+div.optpart input{
+    width: 100%;
+}
+#btnnext{
+    background-color: purple;
+    color: white;
+    border: 1px solid white;
+}
+#btnnext:hover{
+    box-shadow: 3px 3px 4px darkmagenta;
+}
+#btnresult{
+    background-color: purple;
+    color: white;
+}
+
+/* Styling result.html */
+div.resultpage{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.resultsec{
+    border: 2px solid blue;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    border: 2px solid green;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px palegreen;
+    background-color: ivory;
+}
+div.resultsec h4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: green; 
+    box-shadow: 3px 3px 4px palegreen; 
+    padding: 4px; 
+    border-radius: 10px;
+    background-color: transparent;
+}
+div#buttons{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Applying media queries */
+@media screen and (max-width: 700px) {
+    div.welcomepage {
+      width: 100%;
+    }
+    div.parentbox{
+        width: 100%;
+    }
+  }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resultpage">
+        <div class="resultsec">
+            <h2 style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: purple;">Quiz Result</h2>
+            <h4><span>Hii </span><span id="getname" style="font-weight: bold;"></span><span> your result is</span></h4>
+            <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><span style="font-weight: bold;">Total time taken: </span><span id="totaltime"></span><span>s</span></p>
+            <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><span style="font-weight: bold;">Number of questions: </span><span id="totalques">10</span></p>
+            <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><span style="font-weight: bold;">Attempt: </span><span>10</span></p>
+            <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><span style="font-weight: bold;">Correct answers: </span><span id="correctans"></span></p>
+            <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><span style="font-weight: bold;">Incorrect answers: </span><span id="incorrectans"></span></p>
+            <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><span style="font-weight: bold;">Percentage: </span><span id="percentile"></span><span>.00%</span></p>
+            <div id="buttons">
+                <input type="button" value="Start Again" onclick="location.href='pipecisterns.html';">
+                <input type="button" value="Go To Home" onclick="location.href='index.html';">
+            </div>
+        </div>
+    </div>
+
+    <script src="result.js"></script>
+</body>
+</html>
